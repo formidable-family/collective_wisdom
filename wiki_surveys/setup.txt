@@ -1,0 +1,66 @@
+URLS: 
+
+http://www.allourideas.org/ff_gpa/
+http://www.allourideas.org/ff_grit
+http://www.allourideas.org/ff_material_hardship
+http://www.allourideas.org/ff_eviction
+http://www.allourideas.org/ff_layoff
+http://www.allourideas.org/ff_job_training
+
+------------------
+
+Survey setup steps:
+
+Step 1: Create your website
+
+Text of question for your visitors:
+Which variable is a better predictor of child's GPA?
+
+Step 2: Choose your URL
+
+http://www.allourideas.org/ff_gpa
+
+Step 3: Upload lots of ideas to seed the site
+
+Child's birth weight
+Existing number of siblings
+Father absent at time of birth
+Father's age at childbirth
+Father's incarceration
+Father's multiple-job holding
+Father's non-standard work hours
+Foreign-born father
+Foreign-born mother
+Mother's age at childbirth
+Mother's incarceration
+Mother's multiple-job holding
+Mother's non-standard work hours
+Mother's prenatal smoking
+Never-married mother
+Number of parental romantic relationships
+Parents are in cohabiting partnership
+School quality
+Child's gender
+Child's race
+Divorce or separation
+Father's education
+Household income
+Household size
+Income to poverty ratio
+Mother's education
+Teacher quality [grit and GPA surveys]
+
+Step 4: Create an Account
+
+email: formidable.family@gmail.com
+password: [gmail password - check slack]
+
+Step 5/4 [Optional]: Help Us Out
+
+We'll be sending a survey to roughly 800 researchers who have studying the Fragile Families dataset (http://crcw.princeton.edu/publications/publications.asp) to ask them what they believe to be important predictors of child's GPA, grit, material hardship, eviction, layoff, and job training.
+
+------------------
+
+Welcome message: 
+
+Thank you for participating in our survey! We strongly encourage you to add variables which are not already being considered (see "View Results" tab).
