@@ -1,0 +1,217 @@
+Idea Text,FF Var Description,FF Varname
+Income to poverty ratio,Poverty Ratio,c**inpov/c**povco
+Household income,Household Income,c**hhinc
+Father's incarceration,Have you ever spent time in a correctional institution? ,f3i29
+Mother's incarceration,Have you ever spent time in a correctional institution? ,m3i29
+Divorce or separation,Are mother and father divorced or separated from each other? (Mother),m2a8c
+Never-married mother,Constructed - Mother relationship with father at nine-year follow-up (no relationship = 7),cm5relf
+Father absent at time of birth,Will the father's name be on the birth certificate? ,m1a6
+Child's race,Mother's race,m1h3
+,Father's race,f1h3
+Mother's non-standard work hours,K17L. My work hours prevent me from visiting child,m5k17l
+,I16A. My shift and work schedule cause extra stress for me and my child,m5i16a
+,Always/sometimes/never-my work schedule causes extra stress,m2k13a
+,How often true: My shift/schedule causes extra stress for me/child?,m3k16a
+,True/not true: My shift & work schedule cause extra stress for me & child,m4k16a
+Mother's age at childbirth,Constructed - Mother's age (years),cm1age
+,Constructed - Mother's age at her first birth (12 months),cm2fbir
+Mother's multiple-job holding,"In past year, did you work more than one job at a time?",m3k17
+,"When you were working more than one job, how many hours did you work?",m3k18
+,"When you worked more than one job, how many hrs a wk total did you work?",m2k14a
+Domestic violence,Why relationship ended: violence/abuse?,**a8b_7
+,Domestic violence or child abuse,m5b30a1_10/m5f26b2_10/m5f28a_10/f5b26x_10/f5f26b2_10/f5f28a_10
+,INT CHK: HAS MOTHER EVER BEEN SLAPPED OR KICKED BY FATHER?,m3d7m
+,Has father ever slapped or kicked you in front of child?,m3d7n
+,Has father ever slapped or kicked you while child was in the house?,m3d7n1
+,INT CHK: HAS MOTHER EVER BEEN HIT BY FATHER?,m3d7o
+,INT CHK: HAS MOTHER EVER BEEN SLAPPED OR KICKED BY FATHER?,m3d9m
+,Has father ever slapped or kicked you in front of child?,m3d9n
+,Has father ever slapped or kicked you while child was in the house?,m3d9n1
+,INT CHK: HAS MOTHER EVER BEEN HIT BY FATHER?,m3d9o
+,INT CHK: HAS MOTHER EVER BEEN SLAPPED OR KICKED BY CP?,m3e23o
+,Has CP ever slapped or kicked you in front of child?,m3e23p
+,Has CP ever slapped or kicked you while child was in house?,m3e23p1
+,INT CHK: HAS MOTHER EVER BEEN HIT BY CP?,m3e23q
+,INT CHK: HAS FATHER EVER BEEN SLAPPED OR KICKED BY CHILD'S MOTHER?,f3d7m
+,Has mother ever slapped or kicked you in front of child?,f3d7n
+,Has mother ever slapped or kicked you while child was in the house?,f3d7n1
+,INT CHK: HAS FATHER EVER BEEN HIT BY CHILD'S MOTHER?,f3d7o
+,In last month of rel: mom slapped or kicked you?,f3d9h
+,In last month of rel: mom hit you with a fist/an object that could hurt you?,f3d9i
+,INT CHK: HAS FATHER EVER BEEN SLAPPED OR KICKED BY CHILD'S MOTHER?,f3d9m
+,Has mother ever slapped or kicked you in front of child?,f3d9n
+,Has mother ever slapped or kicked you while child was in the house?,f3d9n1
+,INT CHK: HAS FATHER EVER BEEN HIT BY CHILD'S MOTHER?,f3d9o
+,Has mother ever hit you with fist/object that could hurt in front of child?,f3d9p
+,Has father ever hit with fist/object that could hurt in front of child?,m3d7p
+,Has father ever hit you with fist/object while child was in the house?,m3d7p1
+,In last month of rel: did father hit with fist/object that could hurt you?,m3d9i
+,Has father ever hit with fist/object that could hurt in front of child?,m3d9p
+,Has father ever hit you with fist/object while child was in the house?,m3d9p1
+Domestic abuse in family,Why relationship ended: violence/abuse?,**a8b_7
+,Domestic violence or child abuse,m5b30a1_10/m5f26b2_10/m5f28a_10/f5b26x_10/f5f26b2_10/f5f28a_10
+,INT CHK: HAS MOTHER EVER BEEN SLAPPED OR KICKED BY FATHER?,m3d7m
+,Has father ever slapped or kicked you in front of child?,m3d7n
+,Has father ever slapped or kicked you while child was in the house?,m3d7n1
+,INT CHK: HAS MOTHER EVER BEEN HIT BY FATHER?,m3d7o
+,INT CHK: HAS MOTHER EVER BEEN SLAPPED OR KICKED BY FATHER?,m3d9m
+,Has father ever slapped or kicked you in front of child?,m3d9n
+,Has father ever slapped or kicked you while child was in the house?,m3d9n1
+,INT CHK: HAS MOTHER EVER BEEN HIT BY FATHER?,m3d9o
+,INT CHK: HAS MOTHER EVER BEEN SLAPPED OR KICKED BY CP?,m3e23o
+,Has CP ever slapped or kicked you in front of child?,m3e23p
+,Has CP ever slapped or kicked you while child was in house?,m3e23p1
+,INT CHK: HAS MOTHER EVER BEEN HIT BY CP?,m3e23q
+,INT CHK: HAS FATHER EVER BEEN SLAPPED OR KICKED BY CHILD'S MOTHER?,f3d7m
+,Has mother ever slapped or kicked you in front of child?,f3d7n
+,Has mother ever slapped or kicked you while child was in the house?,f3d7n1
+,INT CHK: HAS FATHER EVER BEEN HIT BY CHILD'S MOTHER?,f3d7o
+,In last month of rel: mom slapped or kicked you?,f3d9h
+,In last month of rel: mom hit you with a fist/an object that could hurt you?,f3d9i
+,INT CHK: HAS FATHER EVER BEEN SLAPPED OR KICKED BY CHILD'S MOTHER?,f3d9m
+,Has mother ever slapped or kicked you in front of child?,f3d9n
+,Has mother ever slapped or kicked you while child was in the house?,f3d9n1
+,INT CHK: HAS FATHER EVER BEEN HIT BY CHILD'S MOTHER?,f3d9o
+,Has mother ever hit you with fist/object that could hurt in front of child?,f3d9p
+,Has father ever hit with fist/object that could hurt in front of child?,m3d7p
+,Has father ever hit you with fist/object while child was in the house?,m3d7p1
+,In last month of rel: did father hit with fist/object that could hurt you?,m3d9i
+,Has father ever hit with fist/object that could hurt in front of child?,m3d9p
+,Has father ever hit you with fist/object while child was in the house?,m3d9p1
+Household size,Number of adults in HH,c**adult
+,Number of kids in HH,c**kids
+Father's multiple-job holding,"In past year, did you work more than one job at a time?",f3k18
+,"When you worked more than one job, how many hrs a wk altogether did you work?",f2k19a
+Father's education,Father's education: year 9,cf5edu
+Mother's education,Mother's education: year 9,cm5edu
+Existing number of siblings,Number of kids in HH,c**kids
+Father's non-standard work hours,K17L. My work hours prevent me from visiting child,f5k17l
+,I16A. My shift and work schedule caused extra stress for me and my child,f5i16a
+,How often is it true that-Shift/work schedule cause extra stress?,f2k18a
+,How often true: my shift schedule causes extra stress?,f3k17a
+,True/not true: My shift & work schedule cause extra stress for me & child,f4k16a
+Foreign-born mother,in what country or territory was your mother/father born?,m3h1a/m3h1b
+Parents are in cohabiting partnership,is father cohabiting with baby's mother?,cf2cohm
+Number of parental romantic relationships,"Before father/mother, how many relationships lasted at least one month?",m3a13/f3a13
+Number of parental romantic relationships,Number of romantic relationships you had that lasted at least one month,f5a10/f5a101/m5a10/m5a101
+Father's age at childbirth,Constructed - Father's age (years),cf1age
+Mother's prenatal smoking,"During the preg, how many cigarettes did you smoke? ",m1g4
+Foreign-born father,In what country or territory was your father born?,f3h1a/f3h1b
+School quality,INT CHK: IS/WAS CHILD IN DAY CARE/HEAD START/PRESCHOOL/NURSERY SCHOOL/KINDERGART,m4i0
+,"Child's school have parent grp, parent advisory commit, PTA, parent org?",m4i0b
+,K5D. Problems with safety going to the school made it harder to participate,f5k5d
+,"K5E. School does not make family feel welcome, made it harder to participate",f5k5e
+,L1A. Type of school child attended last school year,p5l1a
+,G4_104. Gifted and talented,t5g4_104
+,L13F. Gifted and talented program,p5l13f
+,C7F. Child received gifted and talented program,t5c7f
+Child's birth weight,Constructed - Low Birth Weight?,cm1lbw
+Child's gender,sex_child: Child's gender,hv4sex_child
+,Constructed - Focal baby's gender,cm1bsex
+Teacher quality,Length of time as schoolteacher,t5g7
+Parent's mental health,G2A_101. Mental health,m5g2a_101
+Childcare center enrollment,Does person/agency give money to help pay for childcare? ,m4b13
+Parents' substance abuse,Mother/Father Alcohol/Drug Dependence,c*3alc_case/c*3drug_case
+,"In last yr, did drinking/hangover interfer with your work at school/job/home?",m4j21
+,"In last yr, did drinking/hangover interfere with your work at school/job/home?",f4j21
+,Drinking/hangover interfered with work at school/job/home during past 12 months,m5g20
+,Drinking/hangover interfered with work at school/job/home during past 12 months,f5g20
+Mother has chronic illness,G2A_107. Chronic disease or illness,m5g2a_107
+Number of times father has missed work,# times in last month missed work/school because care arrangments fell thru?,f2b30a
+,Times you missed work/school because child care fell through?,f3b22
+Child's exposure to someone smoking,H15C. Hours a day child spends with someone who is smoking,p5h15c
+,a24: How many hours/day does child spend in same room w someone who is smoking?,hv4a24
+,"Q3CR. Child smokes, chews, or sniffs tobacco",p5q3cr
+Grandparents are present in household,Grandfather present in household,cm3gdad
+,Grandmother present in household,cm3gmom
+Grandparents in the household,Grandfather present in household,cm3gdad
+,Grandmother present in household,cm3gmom
+Grandparents in the household,Grandfather present in household,cm3gdad
+,Grandmother present in household,cm3gmom
+Child's physical disability,Does child have any physical disability?,hv3a2
+Child's learning disability,Child has diagnosed disability,kind_a13
+Mother's substance abuse,Mother alcohol dependence,cm3alc_case
+,Mother drug dependence,cm3drug_case
+Number of books at home,"About how many, if any, books do you have for child?",m4b27
+,How many books do you have for child?,f4b27
+,"In past month, you read books with child or talked with child about books",m5k14e
+,"In past month, you read books with child or talked with child about books",f5k14e
+Number of books in the home,"About how many, if any, books do you have for child?",m4b27
+,How many books do you have for child?,f4b27
+,"In past month, you read books with child or talked with child about books",m5k14e
+,"In past month, you read books with child or talked with child about books",f5k14e
+Child's IQ,PPVT Percentile Rank,hv5_ppvtpr
+Child's perseverance,I stay with a task until I solve it,k5g1a
+,"Even when a task is difficult, I want to solve it",k5g1b
+,I try to do my best on all my work,k5g1d
+,I follow things through till the end,k5g1e
+Amount of parental involvement in school,how often do you attend the parent group meetings?,m4i0d/f4i0d
+Private school,school in 1st grade public or private? ,p5l23
+,L1A. Type of school child attended last school year,p5l1a
+Availability of extended family,Grandfather/grandmother present in the household,c**gdad/c**gmom
+Father's substance abuse,Father alcohol dependence,cf3alc_case
+,Father drug dependence,cf3drug_case
+Family on welfare,how much money did you receive from public assistance/welfare?,m1j2b/m2h9c1/m3i8c1/m4i8c1/m5f8c1
+,how many months did you receive?,m2h9b1/m3i8b1/m4i8b1/m5f8b1
+,how much money did you receive from public assistance?,f1k2a/f2h8c1/f3i8c1/f4i8c1/f5f8c1
+,how many months did you receive?,f1k2a/f2h8c1/f3i8c1/f4i8c1/f5f8c1
+Homeschooling, L1A. Type of school child attended last school year (homeschool = 4),p5l1a
+Mother's employment,Has mother worked since child's birth?,m2k8
+,Has mother worked since child's birth?,m2k12
+,Has mother worked since child was born?,m3k15
+,Has mother worked since child was born? ,m4k15
+Parent's religion, What best describes your religion? Mother,m3r1
+, What best describes your religion? Father,f3r1  
+Mother's mental health,Does mother have any phys/mental health conditions limits work can do?,f4c38
+,Mother has physical/mental health conditions that limit work she can do,f5b31x
+Child's participation in sports,Frequency with which you played sports with the child in the past month,p5i1b 
+,"In past month, you played sports with the child",m5k14b
+Teacher says child works independently,B2C. Child works independently,t5b2c
+Child's participation in chores,Days/week: let child help you with simple chores?,m3b4d
+,Days/week: let child help you with household chores?,m3b32d
+,Days/week: let child help her with household chores?,m3c3d
+,Days/week: CP lets child help her with household chores?,m3e18d
+,Days/week: let child help you with simple chores?,f3b4d
+,Days/week: let child help you with household chores?,f3b32d
+,Days/week: let child help her with household chores?,f3c3d
+,Days/week CP: let child help her with household chores?,f3e18d
+,"K14A. In past month, you did household chores with child",m5k14a
+,"K14A. In past month, you did household chores with child",f5k14a
+,I1A. Frequency you did household chores with child in past month,p5i1a
+,I31A. Frequency father did household chores with child in past month,p5i31a
+,I40A. Frequency partner did household chores with child in past month,p5i40a
+Father's unemployment,"Is father currently working, in school, or unemployed?",m3c41
+,Is father currently working/in school/unemployed/in jail?,m2c33
+Child makes friends easily,B1H. Child makes friends easily,t5b1h
+Families on block known well,How many of the families on your block would you say that you know well?,m4i0l
+,How many of the families on your block would you say that you know well?,f4i0l
+,M1. Number of families on block know well,p5m1
+,Agree/disagree: This is a close-knit neighborhood,m4i0n2
+,Agree/disagree: People in neighborhood generally don't get along with each other,m4i0n3
+Number of child's emergency room visits,How many times since birth has child been to emergency room?,m2b8
+,a9: in past 12m how many times has child been taken to the emergency room,"hv3a9, hv4a14, f2b8, p5h10"
+Father's sense of familial responsibility,How many days a week does father-Sing songs or nursery rhymes to child?,m2c3b
+,How many days/week does partner-Sing songs/nursery rhymes to child?,m2e4b
+,Number Days/week you play games like peek-a-boo or gotcha w/child?,f2b17a
+,Number Days/week you sing songs or nursery rhymes to child?,f2b17b
+,Number Days/week you read stories to child?,f2b17c
+,Number Days/week you tell stories to child?,f2b17d
+,Number Days/week you play inside w/toys such as blocks or legos w/child?,f2b17e
+,Number Days/week you take child to visit relatives?,f2b17f
+,Number Days/week you hug or show physical affection to child?,f2b17g
+,Number Days/week you put child to bed?,f2b17h
+,"K15. In past month, you have taken child to or from school/programs/camp",f5k15
+,C3F. Frequency father buys school supplies for child,n5c3f
+,C3E. Father pays for camp or school tuition,n5c3e
+,I32A. Frequency father attended open house or back-to-school night in this/last,p5i32a
+,I32B. Frequency father went to scheduled parent-teacher conference in this/last,p5i32b
+,I32C. Frequency father attended school or class event in this/last school year,p5i32c
+,"I37. Father has taken child to school, a program, or camp in past month",p5i37
+Multi-generational household,"Constructed - Grandfather present in household, Constructed - Grandmother present in household","cm4gdad, cm4gmom, cf4gdad
+, cf4gmom"
+Father's interest in sports or entertainment,"K14B In past month, you played sports or did outdoor activities with child",f5k14b
+Parent's chronic illness,Chronic disease or illness: mother,m5g2a_107
+,A3A1_9 You had health problems,f5a3a1_9
+Child's health,A3A1_10 Child had health problems,"m5a3a1_10, m5a3i_10, m5a6g01_10, m5a6g02_10, m5a6g03_10, f5a3a1_10, f5a3i_10, f5a6g01_10, f5a6g02_10, f5a6g03_10"
+Early childhood health,A3A1_10 Child had health problems,"m5a3a1_10, m5a3i_10, m5a6g01_10, m5a6g02_10, m5a6g03_10, f5a3a1_10, f5a3i_10, f5a6g01_10, f5a6g02_10, f5a6g03_10"
+Parents have savings account,J6H You or your husband/partner have savings,m5j6h
