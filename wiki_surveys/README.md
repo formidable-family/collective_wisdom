@@ -1,3 +1,4 @@
 folder | contents
 ---|---------
-`expert_surveys | wiki surveys from fragile families experts
+`expert` | ideas and votes CSVs from wikisurveys of Fragile Families experts (downloaded 10 July 2017)
+`mturk` | ideas and votes CSVs from wikisurveys of Mturkers (downloaded 10 July 2017)
