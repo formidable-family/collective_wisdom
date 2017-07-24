@@ -8,7 +8,7 @@ homedir<-file.path(
   "dropbox",
   "school",
   "sicss",
-  "fragile_families"
+  "collective_wisdom"
 )
 
 #packages
@@ -24,8 +24,7 @@ require(data.table)
 #get wikisurvey data
 wikidir<-file.path(
   homedir,
-  "wikisurvey",
-  "wiki_results_6_29"
+  "wiki_surveys"
 )
 setwd(wikidir); dir()
 
@@ -86,11 +85,10 @@ fulldf<-fulldf[,keepcols]
 ###########################################
 ###########################################
 
+#we get the list of unique ideas, 
+#and output this to a googledoc (via .txt file)
 
-###########################################
-###########################################
-
-deskdir<-file.path(
+tmpdir<-file.path(
   "c:",
   "users",
   "adaner",
@@ -98,6 +96,9 @@ deskdir<-file.path(
 )
 setwd(
   deskdir
-); dir()
+); 
+dir()
 unique.ideas<-fulldf$idea.text %>% unique
 write(unique.ideas,"uniqueideas.txt")
+
+#this google doc is then used to link each idea to ffvar

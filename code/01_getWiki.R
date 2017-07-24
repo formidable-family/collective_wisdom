@@ -8,7 +8,7 @@ homedir<-file.path(
   "dropbox",
   "school",
   "sicss",
-  "fragile_families"
+  "collective_wisdom"
 )
 
 #packages
@@ -24,8 +24,7 @@ require(data.table)
 #get wikisurvey data
 wikidir<-file.path(
   homedir,
-  "wikisurvey",
-  "wiki_results_6_29"
+  "wiki_surveys"
 )
 setwd(wikidir); dir()
 
@@ -53,6 +52,9 @@ fulldf<-lapply(types,function(type) {
   bigdf$type<-type
   bigdf
 }) %>% rbind.fill
+
+#fix mturks name
+fulldf$type[fulldf$type=="mturks"]<-"mturkers"
 
 ###########################################
 ###########################################
@@ -95,25 +97,17 @@ outputdir<-file.path(
 setwd(outputdir)
 write.csv(
   fulldf,
-  "clean_wikisurvey.csv",
+  "wikisurvey_clean.csv",
   row.names=F
 )
 
 ###########################################
 ###########################################
 
-# #output unique ideas for Google Doc
-# deskdir<-file.path(
-#   "c:",
-#   "users",
-#   "adaner",
-#   "desktop"
-# )
-# setwd(
-#   deskdir
-# ); dir()
-# unique.ideas<-fulldf$idea.text %>% unique
-# write(unique.ideas,"uniqueideas.txt")
+#output unique ideas for Google Doc
+setwd(outputdir)
+unique.ideas<-fulldf$idea %>% unique
+write(unique.ideas,"unique_ideas.txt")
 
 ###########################################
 ###########################################

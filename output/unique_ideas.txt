@@ -1,0 +1,72 @@
+Income to poverty ratio
+Father's incarceration
+Household income
+Mother's incarceration
+Domestic violence
+Divorce or separation
+Father absent at time of birth
+Mother's non-standard work hours
+Mother's age at childbirth
+Child's race
+Mother's education
+Never-married mother
+Mother's multiple-job holding
+Father's education
+Father's multiple-job holding
+Number of parental romantic relationships
+Father's non-standard work hours
+Father's age at childbirth
+Household size
+Existing number of siblings
+Parents are in cohabiting partnership
+Mother's prenatal smoking
+School quality
+Foreign-born mother
+Foreign-born father
+Child's birth weight
+Child's gender
+English language proficiency
+Neighborhood crime
+Teacher quality
+Language spoken at home
+Parent impulsivity
+Parent's race
+Parent's mental health
+Domestic abuse in family
+Grandparents in the household
+Childcare center enrollment
+Parents' substance abuse
+Mother has chronic illness
+Number of times father has missed work
+Child's exposure to someone smoking
+Grandparents are present in household
+Child's physical disability
+Child's learning disability
+Mother's substance abuse
+Number of books at home
+Child's IQ
+Child's perseverance
+Amount of parental involvement in school
+Private school
+Availability of extended family
+Father's substance abuse
+Family on welfare
+Homeschooling
+Mother's employment
+Parent's religion
+Mother's mental health
+Child's participation in sports
+Teacher says child works independently
+Child's participation in chores
+Father's unemployment
+Child makes friends easily
+Early childhood health
+Families on block known well
+Number of child's emergency room visits
+Father's sense of familial responsibility
+Multi-generational household
+Father's interest in sports or entertainment
+Parent's chronic illness
+Child's health
+Number of books in the home
+Parents have savings account
