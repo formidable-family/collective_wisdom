@@ -1,0 +1,362 @@
+"idea","outcome","score","type","user.submitted"
+"Income to poverty ratio","eviction",90.1961,"experts",FALSE
+"Father's incarceration","eviction",85.1852,"experts",TRUE
+"Household income","eviction",83.871,"experts",FALSE
+"Mother's incarceration","eviction",76.7857,"experts",TRUE
+"Domestic violence","eviction",73.4694,"experts",TRUE
+"Divorce or separation","eviction",71.875,"experts",FALSE
+"Father absent at time of birth","eviction",68.3333,"experts",TRUE
+"Mother's non-standard work hours","eviction",68.2927,"experts",TRUE
+"Mother's age at childbirth","eviction",63.1579,"experts",TRUE
+"Child's race","eviction",62.7451,"experts",FALSE
+"Mother's education","eviction",55.814,"experts",FALSE
+"Never-married mother","eviction",55.2239,"experts",TRUE
+"Mother's multiple-job holding","eviction",52.6316,"experts",TRUE
+"Father's education","eviction",52,"experts",FALSE
+"Father's multiple-job holding","eviction",47.7273,"experts",TRUE
+"Number of parental romantic relationships","eviction",40.7407,"experts",TRUE
+"Father's non-standard work hours","eviction",37.7358,"experts",TRUE
+"Father's age at childbirth","eviction",37.2881,"experts",TRUE
+"Household size","eviction",37.2549,"experts",FALSE
+"Existing number of siblings","eviction",36.5079,"experts",TRUE
+"Parents are in cohabiting partnership","eviction",30.9524,"experts",TRUE
+"Mother's prenatal smoking","eviction",30.5085,"experts",TRUE
+"School quality","eviction",22.807,"experts",TRUE
+"Foreign-born mother","eviction",22.5,"experts",TRUE
+"Foreign-born father","eviction",21.7391,"experts",TRUE
+"Child's birth weight","eviction",15.2542,"experts",TRUE
+"Child's gender","eviction",6.34921,"experts",FALSE
+"Mother's incarceration","gpa",85,"experts",TRUE
+"Mother's education","gpa",82.1429,"experts",FALSE
+"Income to poverty ratio","gpa",80.7692,"experts",FALSE
+"Household income","gpa",74.359,"experts",FALSE
+"Mother's age at childbirth","gpa",72.4138,"experts",TRUE
+"Father's incarceration","gpa",71.4286,"experts",TRUE
+"English language proficiency","gpa",66.6667,"experts",TRUE
+"Divorce or separation","gpa",64.7059,"experts",FALSE
+"Mother's prenatal smoking","gpa",62.963,"experts",TRUE
+"School quality","gpa",62.5,"experts",TRUE
+"Neighborhood crime","gpa",60,"experts",TRUE
+"Father absent at time of birth","gpa",58.8235,"experts",TRUE
+"Teacher quality","gpa",56.5217,"experts",TRUE
+"Father's education","gpa",56.25,"experts",FALSE
+"Never-married mother","gpa",55.5556,"experts",TRUE
+"Child's birth weight","gpa",48.1481,"experts",TRUE
+"Household size","gpa",44,"experts",FALSE
+"Mother's non-standard work hours","gpa",42.1053,"experts",TRUE
+"Number of parental romantic relationships","gpa",40.9091,"experts",TRUE
+"Language spoken at home","gpa",40,"experts",TRUE
+"Child's race","gpa",40,"experts",FALSE
+"Foreign-born mother","gpa",39.2857,"experts",TRUE
+"Existing number of siblings","gpa",39.2857,"experts",TRUE
+"Father's age at childbirth","gpa",38.7097,"experts",TRUE
+"Parent impulsivity","gpa",33.3333,"experts",TRUE
+"Foreign-born father","gpa",30.7692,"experts",TRUE
+"Father's non-standard work hours","gpa",29.6296,"experts",TRUE
+"Father's multiple-job holding","gpa",28,"experts",TRUE
+"Child's gender","gpa",20.6897,"experts",FALSE
+"Mother's multiple-job holding","gpa",19.3548,"experts",TRUE
+"Parents are in cohabiting partnership","gpa",4.16667,"experts",TRUE
+"Household income","grit",86.9565,"experts",FALSE
+"Income to poverty ratio","grit",85,"experts",FALSE
+"Mother's incarceration","grit",76,"experts",TRUE
+"Mother's education","grit",75,"experts",FALSE
+"Number of parental romantic relationships","grit",73.913,"experts",TRUE
+"Child's birth weight","grit",65.2174,"experts",TRUE
+"Teacher quality","grit",64,"experts",TRUE
+"Mother's prenatal smoking","grit",61.9048,"experts",TRUE
+"Household size","grit",60.7143,"experts",FALSE
+"Child's gender","grit",55.5556,"experts",FALSE
+"School quality","grit",54.5455,"experts",TRUE
+"Never-married mother","grit",52,"experts",TRUE
+"Parents are in cohabiting partnership","grit",50,"experts",TRUE
+"Mother's multiple-job holding","grit",43.4783,"experts",TRUE
+"Existing number of siblings","grit",43.4783,"experts",TRUE
+"Mother's age at childbirth","grit",42.3077,"experts",TRUE
+"Father absent at time of birth","grit",42.3077,"experts",TRUE
+"Child's race","grit",41.6667,"experts",FALSE
+"Foreign-born father","grit",40.9091,"experts",TRUE
+"Father's multiple-job holding","grit",40,"experts",TRUE
+"Mother's non-standard work hours","grit",38.0952,"experts",TRUE
+"Foreign-born mother","grit",36.8421,"experts",TRUE
+"Father's incarceration","grit",35.2941,"experts",TRUE
+"Father's education","grit",27.2727,"experts",FALSE
+"Divorce or separation","grit",18.5185,"experts",FALSE
+"Father's non-standard work hours","grit",15.7895,"experts",TRUE
+"Father's age at childbirth","grit",15.7895,"experts",TRUE
+"Father's non-standard work hours","job_training",75,"experts",TRUE
+"Mother's education","job_training",75,"experts",FALSE
+"Mother's non-standard work hours","job_training",66.6667,"experts",TRUE
+"Mother's age at childbirth","job_training",66.6667,"experts",TRUE
+"Father's incarceration","job_training",66.6667,"experts",TRUE
+"Household income","job_training",66.6667,"experts",FALSE
+"School quality","job_training",50,"experts",TRUE
+"Parents are in cohabiting partnership","job_training",50,"experts",TRUE
+"Mother's prenatal smoking","job_training",50,"experts",TRUE
+"Mother's multiple-job holding","job_training",50,"experts",TRUE
+"Mother's incarceration","job_training",50,"experts",TRUE
+"Foreign-born mother","job_training",50,"experts",TRUE
+"Foreign-born father","job_training",50,"experts",TRUE
+"Father's multiple-job holding","job_training",50,"experts",TRUE
+"Father's age at childbirth","job_training",50,"experts",TRUE
+"Father absent at time of birth","job_training",50,"experts",TRUE
+"Existing number of siblings","job_training",50,"experts",TRUE
+"Child's birth weight","job_training",50,"experts",TRUE
+"Child's race","job_training",50,"experts",FALSE
+"Divorce or separation","job_training",50,"experts",FALSE
+"Father's education","job_training",50,"experts",FALSE
+"Income to poverty ratio","job_training",50,"experts",FALSE
+"Number of parental romantic relationships","job_training",33.3333,"experts",TRUE
+"Never-married mother","job_training",33.3333,"experts",TRUE
+"Household size","job_training",20,"experts",FALSE
+"Child's gender","job_training",20,"experts",FALSE
+"Household income","layoff",85.7143,"experts",FALSE
+"Income to poverty ratio","layoff",80,"experts",FALSE
+"Mother's incarceration","layoff",75,"experts",TRUE
+"Mother's education","layoff",75,"experts",FALSE
+"Never-married mother","layoff",66.6667,"experts",TRUE
+"Child's race","layoff",66.6667,"experts",FALSE
+"Father's education","layoff",66.6667,"experts",FALSE
+"Mother's age at childbirth","layoff",57.1429,"experts",TRUE
+"Parent's race","layoff",50,"experts",TRUE
+"School quality","layoff",50,"experts",TRUE
+"Mother's non-standard work hours","layoff",50,"experts",TRUE
+"Foreign-born father","layoff",50,"experts",TRUE
+"Father's multiple-job holding","layoff",50,"experts",TRUE
+"Father's incarceration","layoff",50,"experts",TRUE
+"Father's age at childbirth","layoff",50,"experts",TRUE
+"Father absent at time of birth","layoff",50,"experts",TRUE
+"Existing number of siblings","layoff",50,"experts",TRUE
+"Child's birth weight","layoff",50,"experts",TRUE
+"Mother's prenatal smoking","layoff",40,"experts",TRUE
+"Parents are in cohabiting partnership","layoff",33.3333,"experts",TRUE
+"Number of parental romantic relationships","layoff",33.3333,"experts",TRUE
+"Foreign-born mother","layoff",33.3333,"experts",TRUE
+"Household size","layoff",33.3333,"experts",FALSE
+"Child's gender","layoff",33.3333,"experts",FALSE
+"Mother's multiple-job holding","layoff",25,"experts",TRUE
+"Father's non-standard work hours","layoff",25,"experts",TRUE
+"Divorce or separation","layoff",20,"experts",FALSE
+"Father's incarceration","material_hardship",94,"experts",TRUE
+"Mother's incarceration","material_hardship",86.4407,"experts",TRUE
+"Income to poverty ratio","material_hardship",85.2941,"experts",FALSE
+"Household income","material_hardship",84.7458,"experts",FALSE
+"Divorce or separation","material_hardship",72.4138,"experts",FALSE
+"Parent's mental health","material_hardship",66.6667,"experts",TRUE
+"Mother's education","material_hardship",66.1972,"experts",FALSE
+"Father absent at time of birth","material_hardship",66,"experts",TRUE
+"Mother's non-standard work hours","material_hardship",62.2642,"experts",TRUE
+"Father's education","material_hardship",61.0169,"experts",FALSE
+"Never-married mother","material_hardship",60.3448,"experts",TRUE
+"Child's race","material_hardship",57.6271,"experts",FALSE
+"Mother's age at childbirth","material_hardship",52.9412,"experts",TRUE
+"Father's non-standard work hours","material_hardship",50.7692,"experts",TRUE
+"Mother's prenatal smoking","material_hardship",42.1053,"experts",TRUE
+"Domestic abuse in family","material_hardship",41.6667,"experts",TRUE
+"Father's multiple-job holding","material_hardship",40,"experts",TRUE
+"Mother's multiple-job holding","material_hardship",39.6552,"experts",TRUE
+"Existing number of siblings","material_hardship",37.2881,"experts",TRUE
+"Number of parental romantic relationships","material_hardship",37.2549,"experts",TRUE
+"Household size","material_hardship",36.8421,"experts",FALSE
+"Parents are in cohabiting partnership","material_hardship",36,"experts",TRUE
+"School quality","material_hardship",34.0909,"experts",TRUE
+"Father's age at childbirth","material_hardship",28.2609,"experts",TRUE
+"Grandparents in the household","material_hardship",26.3158,"experts",TRUE
+"Child's birth weight","material_hardship",25,"experts",TRUE
+"Foreign-born mother","material_hardship",17.3077,"experts",TRUE
+"Foreign-born father","material_hardship",13.1148,"experts",TRUE
+"Childcare center enrollment","material_hardship",12.5,"experts",TRUE
+"Child's gender","material_hardship",6.12245,"experts",FALSE
+"Father's incarceration","eviction",79.6364,"mturkers",FALSE
+"Mother's incarceration","eviction",78.022,"mturkers",FALSE
+"Parents' substance abuse","eviction",75.7353,"mturkers",TRUE
+"Divorce or separation","eviction",73.3788,"mturkers",FALSE
+"Income to poverty ratio","eviction",71.2281,"mturkers",FALSE
+"Household income","eviction",67.7903,"mturkers",FALSE
+"Mother has chronic illness","eviction",62.5,"mturkers",TRUE
+"Father absent at time of birth","eviction",60.7914,"mturkers",FALSE
+"Number of times father has missed work","eviction",58.0357,"mturkers",TRUE
+"Father's non-standard work hours","eviction",56.2069,"mturkers",FALSE
+"Mother's age at childbirth","eviction",51.25,"mturkers",FALSE
+"Mother's non-standard work hours","eviction",51.145,"mturkers",FALSE
+"Number of parental romantic relationships","eviction",50.8834,"mturkers",FALSE
+"Mother's multiple-job holding","eviction",50.3571,"mturkers",FALSE
+"Household size","eviction",48.6755,"mturkers",FALSE
+"Mother's prenatal smoking","eviction",47.651,"mturkers",FALSE
+"Never-married mother","eviction",47.2973,"mturkers",FALSE
+"Father's education","eviction",47.0383,"mturkers",FALSE
+"School quality","eviction",46.6667,"mturkers",FALSE
+"Existing number of siblings","eviction",46.5649,"mturkers",FALSE
+"Father's multiple-job holding","eviction",45.1505,"mturkers",FALSE
+"Child's exposure to someone smoking","eviction",42.8571,"mturkers",TRUE
+"Father's age at childbirth","eviction",42.2481,"mturkers",FALSE
+"Mother's education","eviction",39.7306,"mturkers",FALSE
+"Parents are in cohabiting partnership","eviction",35.2349,"mturkers",FALSE
+"Foreign-born mother","eviction",31.8182,"mturkers",FALSE
+"Child's race","eviction",29.8305,"mturkers",FALSE
+"Foreign-born father","eviction",27.881,"mturkers",FALSE
+"Grandparents are present in household","eviction",26.6667,"mturkers",TRUE
+"Child's gender","eviction",16.6667,"mturkers",FALSE
+"Child's physical disability","eviction",14.2857,"mturkers",TRUE
+"Child's learning disability","eviction",8.33333,"mturkers",TRUE
+"Mother's substance abuse","gpa",76,"mturkers",TRUE
+"Number of books at home","gpa",75.6757,"mturkers",TRUE
+"Teacher quality","gpa",70.9581,"mturkers",FALSE
+"Income to poverty ratio","gpa",70.1705,"mturkers",FALSE
+"Child's IQ","gpa",69.7674,"mturkers",TRUE
+"Child's perseverance","gpa",67.7419,"mturkers",TRUE
+"School quality","gpa",66.6667,"mturkers",FALSE
+"Amount of parental involvement in school","gpa",66.1538,"mturkers",TRUE
+"Mother's education","gpa",63.5514,"mturkers",FALSE
+"Private school","gpa",62.8289,"mturkers",TRUE
+"Mother's incarceration","gpa",61.5142,"mturkers",FALSE
+"Availability of extended family","gpa",61.3636,"mturkers",TRUE
+"Father's incarceration","gpa",60.423,"mturkers",FALSE
+"Father's education","gpa",59.9388,"mturkers",FALSE
+"Divorce or separation","gpa",57.6687,"mturkers",FALSE
+"Household income","gpa",56.5476,"mturkers",FALSE
+"Father's substance abuse","gpa",55.5556,"mturkers",TRUE
+"Family on welfare","gpa",51.4286,"mturkers",TRUE
+"Mother's multiple-job holding","gpa",50.9537,"mturkers",FALSE
+"Mother's non-standard work hours","gpa",49.5822,"mturkers",FALSE
+"Father's non-standard work hours","gpa",48.2249,"mturkers",FALSE
+"Parents are in cohabiting partnership","gpa",47.4934,"mturkers",FALSE
+"Household size","gpa",46.7647,"mturkers",FALSE
+"Homeschooling","gpa",45,"mturkers",TRUE
+"Existing number of siblings","gpa",44.2455,"mturkers",FALSE
+"Mother's prenatal smoking","gpa",43.5331,"mturkers",FALSE
+"Mother's employment","gpa",42.8571,"mturkers",TRUE
+"Father absent at time of birth","gpa",42.3529,"mturkers",FALSE
+"Father's multiple-job holding","gpa",42.2857,"mturkers",FALSE
+"Number of parental romantic relationships","gpa",42.1622,"mturkers",FALSE
+"Mother's age at childbirth","gpa",41.5473,"mturkers",FALSE
+"Parent's religion","gpa",40,"mturkers",TRUE
+"Foreign-born mother","gpa",38.2445,"mturkers",FALSE
+"Never-married mother","gpa",37.2168,"mturkers",FALSE
+"Child's race","gpa",36.2117,"mturkers",FALSE
+"Child's gender","gpa",33.5593,"mturkers",FALSE
+"Foreign-born father","gpa",33.0484,"mturkers",FALSE
+"Father's age at childbirth","gpa",30.6748,"mturkers",FALSE
+"Child's birth weight","gpa",30.4762,"mturkers",FALSE
+"Income to poverty ratio","grit",69.5783,"mturkers",FALSE
+"Mother's mental health","grit",69.4444,"mturkers",TRUE
+"Child's participation in sports","grit",68.2927,"mturkers",TRUE
+"Teacher says child works independently","grit",67.6301,"mturkers",TRUE
+"Mother's incarceration","grit",64.0288,"mturkers",FALSE
+"Divorce or separation","grit",63.5739,"mturkers",FALSE
+"Child's participation in chores","grit",62.7451,"mturkers",TRUE
+"Mother's multiple-job holding","grit",62.2951,"mturkers",FALSE
+"Father's incarceration","grit",56.3934,"mturkers",FALSE
+"School quality","grit",56.3798,"mturkers",FALSE
+"Household income","grit",55.9727,"mturkers",FALSE
+"Father's unemployment","grit",55.6962,"mturkers",TRUE
+"Mother's non-standard work hours","grit",55.2381,"mturkers",FALSE
+"Existing number of siblings","grit",54.9689,"mturkers",FALSE
+"Child makes friends easily","grit",53.5714,"mturkers",TRUE
+"Father's multiple-job holding","grit",53.1561,"mturkers",FALSE
+"Early childhood health","grit",52.1127,"mturkers",TRUE
+"Father absent at time of birth","grit",50.6993,"mturkers",FALSE
+"Household size","grit",50.1767,"mturkers",FALSE
+"Never-married mother","grit",48.2877,"mturkers",FALSE
+"Father's non-standard work hours","grit",47.1154,"mturkers",FALSE
+"Parents are in cohabiting partnership","grit",47.099,"mturkers",FALSE
+"Teacher quality","grit",46.2094,"mturkers",FALSE
+"Mother's education","grit",44.0972,"mturkers",FALSE
+"Mother's age at childbirth","grit",43.2343,"mturkers",FALSE
+"Child's race","grit",42.4138,"mturkers",FALSE
+"Foreign-born mother","grit",41.5842,"mturkers",FALSE
+"Number of parental romantic relationships","grit",41.0526,"mturkers",FALSE
+"Father's education","grit",41.0448,"mturkers",FALSE
+"Child's gender","grit",39.2361,"mturkers",FALSE
+"Father's age at childbirth","grit",38.0282,"mturkers",FALSE
+"Families on block known well","grit",35.7143,"mturkers",TRUE
+"Foreign-born father","grit",35.1171,"mturkers",FALSE
+"Mother's prenatal smoking","grit",34.4086,"mturkers",FALSE
+"Child's birth weight","grit",30.8725,"mturkers",FALSE
+"Number of child's emergency room visits","grit",28.5714,"mturkers",TRUE
+"Mother's education","job_training",78.5933,"mturkers",FALSE
+"Father's education","job_training",75.4658,"mturkers",FALSE
+"Household income","job_training",67.6282,"mturkers",FALSE
+"Teacher quality","job_training",65.4206,"mturkers",FALSE
+"School quality","job_training",62.5397,"mturkers",FALSE
+"Income to poverty ratio","job_training",61.7647,"mturkers",FALSE
+"Father's multiple-job holding","job_training",61.0169,"mturkers",FALSE
+"Mother's multiple-job holding","job_training",60.0583,"mturkers",FALSE
+"Mother's non-standard work hours","job_training",57.947,"mturkers",FALSE
+"Household size","job_training",56.962,"mturkers",FALSE
+"Father's incarceration","job_training",56.1462,"mturkers",FALSE
+"Mother's age at childbirth","job_training",55.4487,"mturkers",FALSE
+"Mother's incarceration","job_training",55.3398,"mturkers",FALSE
+"Father's sense of familial responsibility","job_training",53.8462,"mturkers",TRUE
+"Multi-generational household","job_training",53.5714,"mturkers",TRUE
+"Father's non-standard work hours","job_training",51.2658,"mturkers",FALSE
+"Father's age at childbirth","job_training",50.4854,"mturkers",FALSE
+"Father absent at time of birth","job_training",49.1803,"mturkers",FALSE
+"Parents are in cohabiting partnership","job_training",46.2462,"mturkers",FALSE
+"Existing number of siblings","job_training",45.2532,"mturkers",FALSE
+"Divorce or separation","job_training",42.042,"mturkers",FALSE
+"Never-married mother","job_training",38.3513,"mturkers",FALSE
+"Number of parental romantic relationships","job_training",35.6913,"mturkers",FALSE
+"Mother's prenatal smoking","job_training",35.1724,"mturkers",FALSE
+"Father's interest in sports or entertainment","job_training",34.0136,"mturkers",TRUE
+"Child's race","job_training",33.3333,"mturkers",FALSE
+"Foreign-born father","job_training",32.6861,"mturkers",FALSE
+"Foreign-born mother","job_training",30.2083,"mturkers",FALSE
+"Child's gender","job_training",23.6066,"mturkers",FALSE
+"Child's birth weight","job_training",22.5309,"mturkers",FALSE
+"Father's incarceration","layoff",79.1519,"mturkers",FALSE
+"Parent's chronic illness","layoff",74.2616,"mturkers",TRUE
+"Mother's incarceration","layoff",70.3072,"mturkers",FALSE
+"Father's non-standard work hours","layoff",64.4231,"mturkers",FALSE
+"Mother's multiple-job holding","layoff",63.8298,"mturkers",FALSE
+"Income to poverty ratio","layoff",62.5926,"mturkers",FALSE
+"Father's multiple-job holding","layoff",61.2245,"mturkers",FALSE
+"Household income","layoff",59.8592,"mturkers",FALSE
+"Mother's education","layoff",58.885,"mturkers",FALSE
+"Mother's non-standard work hours","layoff",58.6081,"mturkers",FALSE
+"Father's education","layoff",57.1906,"mturkers",FALSE
+"Father absent at time of birth","layoff",56.3636,"mturkers",FALSE
+"Divorce or separation","layoff",55.8621,"mturkers",FALSE
+"School quality","layoff",48.5401,"mturkers",FALSE
+"Household size","layoff",46.1059,"mturkers",FALSE
+"Foreign-born father","layoff",45.8064,"mturkers",FALSE
+"Mother's prenatal smoking","layoff",44.6215,"mturkers",FALSE
+"Parents are in cohabiting partnership","layoff",42.5087,"mturkers",FALSE
+"Number of parental romantic relationships","layoff",42.3868,"mturkers",FALSE
+"Foreign-born mother","layoff",40.7143,"mturkers",FALSE
+"Mother's age at childbirth","layoff",39.8026,"mturkers",FALSE
+"Existing number of siblings","layoff",37.6426,"mturkers",FALSE
+"Child's health","layoff",36.4865,"mturkers",TRUE
+"Never-married mother","layoff",35.082,"mturkers",FALSE
+"Father's age at childbirth","layoff",34.1463,"mturkers",FALSE
+"Child's gender","layoff",25.1799,"mturkers",FALSE
+"Child's race","layoff",24.9071,"mturkers",FALSE
+"Child's birth weight","layoff",22.963,"mturkers",FALSE
+"Father's incarceration","material_hardship",77.0171,"mturkers",FALSE
+"Mother's incarceration","material_hardship",75.853,"mturkers",FALSE
+"Income to poverty ratio","material_hardship",71.9626,"mturkers",FALSE
+"Household income","material_hardship",66.8407,"mturkers",FALSE
+"Divorce or separation","material_hardship",60.7539,"mturkers",FALSE
+"Father's education","material_hardship",56.6745,"mturkers",FALSE
+"School quality","material_hardship",56.4039,"mturkers",FALSE
+"Mother's education","material_hardship",55.6054,"mturkers",FALSE
+"Mother's multiple-job holding","material_hardship",54.0342,"mturkers",FALSE
+"Father absent at time of birth","material_hardship",53.2982,"mturkers",FALSE
+"Household size","material_hardship",53.23,"mturkers",FALSE
+"Mother's age at childbirth","material_hardship",51.7677,"mturkers",FALSE
+"Father's multiple-job holding","material_hardship",51.5707,"mturkers",FALSE
+"Existing number of siblings","material_hardship",48.4561,"mturkers",FALSE
+"Father's non-standard work hours","material_hardship",47.3945,"mturkers",FALSE
+"Mother's non-standard work hours","material_hardship",46.7822,"mturkers",FALSE
+"Never-married mother","material_hardship",46.2963,"mturkers",FALSE
+"Number of parental romantic relationships","material_hardship",43.5115,"mturkers",FALSE
+"Father's age at childbirth","material_hardship",43.3071,"mturkers",FALSE
+"Child's race","material_hardship",42.029,"mturkers",FALSE
+"Mother's prenatal smoking","material_hardship",40.1786,"mturkers",FALSE
+"Number of books in the home","material_hardship",39.7727,"mturkers",TRUE
+"Foreign-born father","material_hardship",38.2278,"mturkers",FALSE
+"Foreign-born mother","material_hardship",37.3434,"mturkers",FALSE
+"Parents have savings account","material_hardship",36.4286,"mturkers",TRUE
+"Parents are in cohabiting partnership","material_hardship",33.6538,"mturkers",FALSE
+"Child's gender","material_hardship",30.5288,"mturkers",FALSE
+"Child's birth weight","material_hardship",29.9539,"mturkers",FALSE

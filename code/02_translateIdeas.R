@@ -8,7 +8,7 @@ homedir<-file.path(
   "dropbox",
   "school",
   "sicss",
-  "fragile_families"
+  "collective_wisdom"
 )
 
 #packages
@@ -33,6 +33,11 @@ ideasdf<-read.csv(
 )
 
 #for below, codebook also needed
+docdir<-file.path(
+  homedir,
+  "documentation"
+)
+setwd(docdir); dir()
 codedf<-read.csv(
   'codebook.csv',
   stringsAsFactors=F
@@ -49,7 +54,7 @@ names(ideasdf)<-c(
   "varname"
 )
 
-#fill in 
+#fill in all missing ideas
 tmp<-ideasdf$idea==""
 ideasdf$idea[tmp]<-NA
 ideasdf$idea<-zoo::na.locf.default(
@@ -76,7 +81,7 @@ varnames<-varnames[varnames!=""]
 
 allvarsdf<-lapply(varnames,function(myvar) {
   #myvar<-"c**inpov"
-  print(myvar)
+  #print(myvar)
   #get the idea text associated
   tmp<-str_detect(
     ideasdf$varname,
@@ -125,9 +130,9 @@ allvarsdf<-lapply(varnames,function(myvar) {
 ideas<-allvarsdf$idea
 ideas<-sapply(ideas,function(x) {
   str_split(x,"~~~")
-}) %>% unique %>% unlist
-allvarsdf<-lapply(ideas,function(idea) {
-  #idea<-"School quality"
+}) %>% unlist %>% unique
+fvarsdf<-lapply(ideas,function(idea) {
+  #idea<-"Household size"
   tmp<-str_detect(allvarsdf$idea,idea)
   keepcols<-c(
     "varname",
@@ -144,36 +149,30 @@ allvarsdf<-lapply(ideas,function(idea) {
 #merge in wikisurvey information
 setwd(outputdir); dir()
 wikidf<-read.csv(
-  "clean_wikisurvey.csv",
+  "wikisurvey_clean.csv",
   stringsAsFactors=F
 )
 
-#and get the original 
+#and merge w/ the original 
 intersect(
   names(wikidf),
-  names(allvarsdf)
+  names(fvarsdf)
 )
-head(wikidf); nrow(wikidf)
-head(allvarsdf); nrow(allvarsdf)
 fulldf<-merge(
   wikidf,
-  allvarsdf,
+  fvarsdf,
   all=T
 )
 
-# #check
-# wikidf$idea %>% unique %>% sort
-# head(fulldf)
-# 
-# #check this is complete?
-# tmp<-is.na(fulldf$score)
-# fulldf$idea[tmp] %>% unique
-# fulldf[tmp,]
+#check this is complete?
+tmp<-is.na(fulldf$score)
+if(sum(tmp)>0)
+  stop()
 
 ###########################################
 ###########################################
 
-#output
+#finalize
 names(fulldf)
 colorder<-c(
   "outcome",
@@ -188,35 +187,42 @@ roworder<-order(
 )
 fulldf<-fulldf[roworder,colorder]
 
-#not sure why this is necessary, but..
-fulldf<-unique(fulldf)
-
+#spread to make it easy 
 fulldf<-tidyr::spread(
   fulldf,
   type,
   score
 )
 
-#add a note for which are original
+#add a note marking the originals
 wikidir<-file.path(
   homedir,
-  "wikisurvey"
+  "wiki_surveys"
 )
 setwd(wikidir); dir()
 tmptext<-readLines('setup.txt')[25:51]
 tmptext[27]<-"Teacher quality"
 
 #mark these as originals
-head(fulldf)
-tmp<-tolower(fulldf$idea)%in%tolower(tmptext)
+tmp<-tolower(fulldf$idea)%in%
+  tolower(tmptext)
 sum(tmp); sum(!tmp)
 fulldf$user.submitted<-NULL
 fulldf$user.submitted<-T
 fulldf$user.submitted[tmp]<-F
 
+#save out
 setwd(outputdir)
+colorder<-c(
+  "outcome",
+  "idea",
+  "user.submitted",
+  "ffvar",
+  "experts",
+  "mturkers"
+)
 write.csv(
-  fulldf,
+  fulldf[,colorder],
   "ffvars_scored.csv",
   row.names=F
 )
