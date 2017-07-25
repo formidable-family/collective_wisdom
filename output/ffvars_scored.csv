@@ -308,7 +308,7 @@
 "gpa","Mother's prenatal smoking",FALSE,"m1g4",62.963,43.5331
 "gpa","Mother's substance abuse",TRUE,"cm3alc_case",NA,76
 "gpa","Mother's substance abuse",TRUE,"cm3drug_case",NA,76
-"gpa","Neighborhood crime",TRUE,NA,60,NA
+"gpa","Neighborhood crime",TRUE,"t5f4a",60,NA
 "gpa","Never-married mother",FALSE,"cm5relf",55.5556,37.2168
 "gpa","Number of books at home",TRUE,"f4b27",NA,75.6757
 "gpa","Number of books at home",TRUE,"f5k14e",NA,75.6757
@@ -322,7 +322,7 @@
 "gpa","Number of parental romantic relationships",FALSE,"m5a101",40.9091,42.1622
 "gpa","Parent's religion",TRUE,"f3r1",NA,40
 "gpa","Parent's religion",TRUE,"m3r1",NA,40
-"gpa","Parent impulsivity",TRUE,NA,33.3333,NA
+"gpa","Parent impulsivity",TRUE,"p5q3an",33.3333,NA
 "gpa","Parents are in cohabiting partnership",FALSE,"cf2cohm",4.16667,47.4934
 "gpa","Private school",TRUE,"p5l1a",NA,62.8289
 "gpa","Private school",TRUE,"p5l23",NA,62.8289

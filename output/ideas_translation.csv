@@ -215,3 +215,7 @@ Parent's chronic illness,Chronic disease or illness: mother,m5g2a_107
 Child's health,A3A1_10 Child had health problems,"m5a3a1_10, m5a3i_10, m5a6g01_10, m5a6g02_10, m5a6g03_10, f5a3a1_10, f5a3i_10, f5a6g01_10, f5a6g02_10, f5a6g03_10"
 Early childhood health,A3A1_10 Child had health problems,"m5a3a1_10, m5a3i_10, m5a6g01_10, m5a6g02_10, m5a6g03_10, f5a3a1_10, f5a3i_10, f5a6g01_10, f5a6g02_10, f5a6g03_10"
 Parents have savings account,J6H You or your husband/partner have savings,m5j6h
+English language proficiency,What language of focus child? English,a8_1
+Neighborhood crime,How much of a problem is crime in the neighborhood?,t5f4a
+Language spoken at home,Language of focus child's parents,c8_1
+Parent impulsivity,Child is impulsive or acts without thinking,p5q3an

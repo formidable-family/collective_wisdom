@@ -21,7 +21,7 @@ require(data.table)
 ###########################################
 ###########################################
 
-#read it in
+#read in translated ideas
 outputdir<-file.path(
   homedir,
   "output"
@@ -31,6 +31,26 @@ ideasdf<-read.csv(
   'ideas_translation.csv',
   stringsAsFactors=F
 )
+
+#rename vars
+names(ideasdf)
+names(ideasdf)<-c(
+  "idea",
+  "vardescription",
+  "varname"
+)
+
+#check that all unique_ideas prez
+allideas<-readLines('unique_ideas.txt')
+tmp<-allideas%in%ideasdf$idea
+if(sum(!tmp)>0) {
+  print(allideas[!tmp])
+  warning('not all ideas accounted for')
+}
+
+#only keep those that have info
+tmp<-ideasdf$varname!=""
+ideasdf<-ideasdf[tmp,]
 
 #for below, codebook also needed
 docdir<-file.path(
@@ -42,17 +62,9 @@ codedf<-read.csv(
   'codebook.csv',
   stringsAsFactors=F
 )
-
+ 
 ###########################################
 ###########################################
-
-#rename vars
-names(ideasdf)
-names(ideasdf)<-c(
-  "idea",
-  "vardescription",
-  "varname"
-)
 
 #fill in all missing ideas
 tmp<-ideasdf$idea==""
@@ -132,7 +144,7 @@ ideas<-sapply(ideas,function(x) {
   str_split(x,"~~~")
 }) %>% unlist %>% unique
 fvarsdf<-lapply(ideas,function(idea) {
-  #idea<-"Household size"
+  #idea<-"Child's race"
   tmp<-str_detect(allvarsdf$idea,idea)
   keepcols<-c(
     "varname",

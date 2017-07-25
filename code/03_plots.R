@@ -191,7 +191,6 @@ plotdf$user.submitted<-factor(
   labels=c("user submitted","seeded")
 )
 
-
 g.tmp<-ggplot(
   data=plotdf,
   aes(
